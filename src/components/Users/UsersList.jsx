@@ -9,7 +9,7 @@ const UsersList = (props) => {
           <li key={user.id}>
             {user.name} ({user.age} 'years old!)
           </li>
-        ))}
+        ))} 
       </ul>
     </Card>
   );
